@@ -1,0 +1,32 @@
+body{
+    background-color: antiquewhite;
+}
+
+div {
+    display: flex;
+    height: 300px;
+    width: 800px;
+    background-color: yellow;
+    justify-content: center;
+}
+
+#zold {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    display: none;
+}
+
+#citrom {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    display: none;
+}
+
+#lila {
+    background-color: purple;
+    height: 100px;
+    width: 100px;
+    align-self: center;
+}
