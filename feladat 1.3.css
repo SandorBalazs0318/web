@@ -1,0 +1,24 @@
+body{
+    background-color: antiquewhite;
+}
+
+div {
+    display: flex;
+    height: 300px;
+    width: 100%;
+}
+
+#zold {
+    background-color: green;
+    flex: 1;
+}
+
+#citrom {
+    background-color: yellow;
+    flex: 2;
+}
+
+#lila {
+    background-color: purple;
+    flex: 1;
+}
