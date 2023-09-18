@@ -1,0 +1,47 @@
+body{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
+}
+
+#tarolo{
+    display: flex;
+    height: 700px;
+    width: 100%;
+    background-color: purple;
+    flex-direction: row;
+}
+
+#sarga{
+    margin-top: 50px;
+    background-color: yellow;
+    flex: 2;
+}
+
+#zold{
+    margin-top: 50px;
+    background-color: green;
+    flex: 1;
+}
+
+.kek1,.kek2,.kek3{
+    display: flex;
+    background-color: aqua;
+    height: 30px;
+    width: 100px;
+    margin-top: -40px;
+    margin-left: 25px;
+    justify-content: space-around;
+}
+
+.kek2{
+    margin-left: 145px;
+    margin-top: -30px;
+}
+
+.kek3 {
+    margin-left: 265px;
+    margin-top: -30px;
+}
+
+
