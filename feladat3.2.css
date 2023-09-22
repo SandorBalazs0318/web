@@ -1,0 +1,84 @@
+*{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+#lila{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: purple;
+    flex-direction: row;
+}
+
+#masodiksor{
+    display: flex;
+    flex-direction: row;
+}
+
+#sarga{
+    display: flex;
+    margin-top: 10px;
+    background-color: yellow;
+    height: 700px;
+    flex: 2;
+    margin-right: 65px;
+}
+
+#zold{
+    display: flex;
+    margin-top: 10px;
+    background-color: green;
+    height: 700px;
+    flex: 1;
+    margin-left: 65px;
+    margin-right: 10px;
+}
+
+#szurke{
+    background-color: gray;
+    margin-top: 10px;
+    margin-right: 65px;
+    margin-left: 60px;
+    height: 100px;
+}
+
+#kek1 {
+    display: flex;
+    background-color: aqua;
+    height: 35px;
+    width: 100px;
+    margin-left: 65px;
+    margin-right: 30px;
+    align-self: center;
+}
+
+#kek2 {
+    display: flex;
+    background-color: aqua;
+    height: 35px;
+    width: 100px;
+    margin-right: 30px;
+    align-self: center;
+}
+
+#kek3 {
+    display: flex;
+    background-color: aqua;
+    height: 35px;
+    width: 100px;
+    margin-right: 30px;
+    align-self: center;
+}
+
+#kek4 {
+    display: flex;
+    background-color: aqua;
+    height: 35px;
+    width: 100px;
+    margin-right: 30px;
+    align-self: center;
+}
+
