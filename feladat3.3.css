@@ -1,0 +1,64 @@
+*{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+body{
+    background-color: bisque;
+}
+
+#vilagoskek{
+    height: 100px;
+    width: 42%;
+    background-color:aqua;
+}
+
+#masodiksor{
+    display: flex;
+    flex-direction: row;
+    width: 42%;
+}
+
+#narancs{
+    display: flex;
+    background-color: orange;
+    height: 600px;
+    width: 100px;
+    flex: 1;
+}
+
+#piros{
+    display: flex;
+    background-color: red;
+    height: 600px;
+    width: 300px;
+    flex: 4;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+#lila{
+    display: flex;
+    background-color: purple;
+    height: 600px;
+    width: 100px;
+    flex: 1;
+}
+
+#sotetkek{
+    background-color: blue;
+    height: 100px;
+    width: 42%;
+}
+
+#fekete {
+    display: flex;
+    background-color: black;
+    margin-right: 100px;
+    margin-left: 15px;
+    width: 50px;
+    height: 50px;
+    float: right;
+}
