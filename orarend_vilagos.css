@@ -1,0 +1,54 @@
+body {
+    background-image: url("suli.jpg");
+    background-repeat: no-repeat;
+    background-size: 2300px; 
+    color: black;
+}
+
+#alap1 {
+    background-color: bisque;
+    opacity: 0.5;
+    width: 50%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 90px;
+}
+
+#alap2 {
+    background-color: bisque;
+    opacity: 0.5;
+    width: 50%;
+    height: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.mas{
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+}
+
+.napok {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.het {
+    font-size: 50px;
+    background-color: bisque;
+}
+
+#gomb {
+    height: 50px;
+    width: 70px;
+    background-color: white;
+    color: black;
+}
