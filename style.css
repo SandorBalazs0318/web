@@ -1,0 +1,26 @@
+body{
+    background-color: lightblue;
+}
+.input-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+#elements{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 220px;
+}
+
+.itemek{
+    background-color: orange;
+    margin-right: 15px;
+    height: 100px;
+    width: 200px;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 50px;
+
+}
