@@ -1,0 +1,25 @@
+#container {
+    background-color: lightsalmon;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 25%;
+}
+
+.meret {
+    width: 40%;
+}
+
+#szin1 {
+    background-color: lightblue;
+}
+
+#szin2 {
+    background-color: gold;
+}
+
+#szin3 {
+    background-color: lightcoral;
+}
