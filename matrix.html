@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="matrix.css">
+    <title>3x3 Mátrix</title>
+</head>
+<body>
+    <h1>3x3 Mátrix</h1>
+    <div id="alap">
+        <div id="matrix"></div>
+    </div>
+    
+    <button id="resetButton">Mátrix törlése</button>
+
+    <script>
+        const originalArray = ["A", "B", "C", "D", "E", "F", "G", "H", "I"];
+        let displayedArray = [...originalArray];
+
+        const matrixContainer = document.getElementById("matrix");
+        const resetButton = document.getElementById("resetButton");
+
+        function initialBoard() {
+            displayedArray = [...originalArray];
+            renderBoard();
+        }
+
+        function setRandomOrder() {
+            const randomArray = [...originalArray];
+            for (let i = randomArray.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [randomArray[i], randomArray[j]] = [randomArray[j], randomArray[i]];
+            }
+            displayedArray = randomArray;
+            renderBoard();
+        }
+
+        function getItem() {
+            if (displayedArray.length > 0) {
+                return displayedArray.pop();
+            }
+        }
+
+        function setDisplayBoard(event) {
+            const cell = event.target;
+            if (cell.classList.contains("cell") && displayedArray.length > 0) {
+                const item = getItem();
+                cell.textContent = item;
+            }
+        }
+
+        function renderBoard() {
+            matrixContainer.innerHTML = "";
+            for (let i = 0; i < 9; i++) {
+                const cell = document.createElement("div");
+                cell.className = "cell";
+                cell.addEventListener("click", setDisplayBoard);
+                matrixContainer.appendChild(cell);
+            }
+        }
+
+        resetButton.addEventListener("click", initialBoard);
+
+        initialBoard();
+    </script>
+</body>
+</html>
