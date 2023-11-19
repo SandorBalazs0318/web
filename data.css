@@ -1,0 +1,22 @@
+body {
+    background-color:beige
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;    
+}
+
+td {
+  width: 120px;
+  height: 120px;
+  background-color: yellow;
+  cursor: pointer;
+  border: solid aqua 25px;
+}
+#kekhatter{
+    background-color:aqua;
+    height: 320px;
+    width: 320px;
+    margin: auto;
+}
