@@ -1,0 +1,37 @@
+body{
+    background-image: url(ur.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+p{
+    background-color: bisque;
+    color: black;
+    border: solid bisque 10px;
+    border-style:dashed;
+    width: 250px;
+    height: 120px;
+    text-align: center;
+}
+
+#sor{
+    display: flex;
+    flex-direction: row;
+}
+
+.koz{
+    margin: 15px;
+}
+
+table, tr, td{
+    border: solid yellow 5px;
+    border-collapse: collapse;
+    color: black;
+}
+
+#hatterresz {
+    width: fit-content;
+    height: fit-content;
+    background-color: blanchedalmond;
+}
