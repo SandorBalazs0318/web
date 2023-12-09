@@ -1,0 +1,52 @@
+body {
+    background-color: burlywood;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#tabla {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 10px;
+}
+
+h1, p {
+    text-align: center;
+}
+
+p {
+    margin-bottom: 50px;
+}
+
+.kartya {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+    transform: rotateY(0deg);
+}
+
+.kartya.hatulja {
+    transform: rotateY(180deg);
+    background-color: #2ecc71;
+    transform: rotateY(180deg);
+    color: #2ecc71;
+}
+
+.kartya.parositott {
+    visibility: hidden; 
+}
