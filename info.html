@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Api_Kurzusok</title>
+  <link rel="stylesheet" href="info.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Kurzusok(Apival)</h1>
+    <div id="margo">
+        <form id="addCourseForm">
+        <label for="kurzusnev">Létrehozandó kurzus neve:</label><br>
+        <input type="text" id="kurzusnev" name="kurzusnev" required><br>
+        <button type="submit">Kurzus hozzáadása</button>
+        </form>
+    </div>
+
+    <div id="margo">
+        <form id="assignStudentForm">
+        <label for="courseSelect">Kurzus kiválasztása az apiból:</label><br>
+        <select id="courseSelect" name="courseSelect"></select><br>
+        <div id="margo">
+            <label for="studentName">Létrehozandó diák neve:</label><br>
+            <input type="text" id="studentName" name="studentName" required><br>
+            <button type="submit">Diák hozzárendelése</button>
+        </div>
+        </form>
+    </div>
+
+    <div id="margo">
+        <form id="deleteStudentForm">
+        <label for="deleteStudentId">Diák Neve:</label><br>
+        <input type="text" id="deleteStudentName" name="deleteStudentName" required><br>
+        <button type="submit">Diák törlése</button>
+        </form>
+    </div><br>
+
+    <h2>Eddigi kurzusok:</h2>
+
+    <div id="courses"></div>
+  </div>
+
+  <script src="valami.js"></script>
+</body>
+</html>
