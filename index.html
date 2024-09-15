@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codewars Pontszámok</title>
+    <link rel="stylesheet" href="api.css">
+
+</head>
+<body>
+    <nav>
+        <a href="#" onclick="showUserData()">Felhasználói Pontszámok</a>
+        <a href="#" onclick="showLeaderboard()">Toplista</a>
+    </nav>
+    <div class="container" id="main-content">
+       
+        <div id="user-data">
+            <h1>Codewars Pontszámok</h1>
+            <input type="text" id="username" placeholder="Írd be a felhasználó nevét">
+            <button onclick="fetchUserData()">Kérlek kattints ide</button>
+            <div class="result" id="result"></div>
+        </div>
+        
+
+        <div class="leaderboard" id="leaderboard" style="display:none;">
+            <h1>Toplista</h1>
+            <input type="text" id="leaderboard-users" placeholder="Írd be a felhasználókat (vesszővel elválasztva)">
+            <button onclick="fetchLeaderboard()">Kérlek kattints ide</button>
+            <div id="leaderboard-results"></div>
+        </div>
+    </div>
+
+    <script src="javascript.js"></script>
+    
+</body>
+</html>
